@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdio_ext.h>
 #define N 20
-#define aprobado 7
+#define APROBADO 7
 
 int promedi (int valores[]);
 int notas (int valores[]);
@@ -22,7 +22,7 @@ int notas(int valores[]){
   int CantDesa = 0;
   char i2 = 0;
   for (i2 = 0; i2 < 20; i2++){
-    if (valores[i2] >= aprobado){
+    if (valores[i2] >= APROBADO){
       CantApro++;
     }else{
       CantDesa++;
