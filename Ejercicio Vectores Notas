@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdio_ext.h>
-#define n 20
+#define N 20
 #define aprobado 7
 
 int promedi (int valores[]);
 int notas (int valores[]);
 
 int main(void) {
-  int valores[n];
+  int valores[N];
   char i = 0;
   for (i = 0; i < 20; i++) {
     printf("Introduzca la nota del alumno %d: ", i+1);
